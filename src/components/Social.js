@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
-import { FaBars, FaTimes, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import {  FaLinkedin, FaInstagram } from 'react-icons/fa';
 import '../style.css';
 
 const Social = () => {
