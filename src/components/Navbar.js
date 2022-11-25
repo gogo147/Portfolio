@@ -32,25 +32,25 @@ const Navbar = () => {
             </ul>
         
         <div onClick={handleClick} className='md:hidden z-10'>
-            {!nav ? <FaBars size={28} /> : <FaTimes size={28} />}
+            {!nav ? <FaBars size={28} className='hover:text-gray-50' /> : <FaTimes size={28} className='hover:text-gray-50' />}
         </div>
 
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                <Link onClick={handleClick} className='hover:text-gray-50' to='home' smooth={true} duration={500}>
                     Home
                 </Link>
             </li>
             <li className='py-6 text-4xl'> 
-                <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+                <Link onClick={handleClick} className='hover:text-gray-50' to='about' smooth={true} duration={500}>
                     About
                 </Link></li>
             <li className='py-6 text-4xl'> 
-                <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+                <Link onClick={handleClick} className='hover:text-gray-50' to='projects' smooth={true} duration={500}>
                     Projects
                 </Link></li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+                <Link onClick={handleClick} className='hover:text-gray-50' to='contact' smooth={true} duration={500}>
                     Contact
                 </Link>
             </li>
@@ -64,7 +64,7 @@ const Navbar = () => {
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#b436ae]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-gradient-to-r from-purple-500 to-pink-500 '>
                     <a className='flex justify-between items-center w-full text-gray-300'
                     href='https://www.instagram.com/george_manaz'>
                         Instagram <FaInstagram size={30}/>
