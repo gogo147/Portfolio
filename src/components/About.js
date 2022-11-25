@@ -14,11 +14,11 @@ const About = () => {
                 </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm George, nice to meet you. Please take a look around.</p>
+                    <p>Hi. Nice to meet you. Please take a look around.</p>
                 </div>
             <div>
                 <p>My name is George Manaz and I am studying 
-                    to become a full-stack developer at Changemaker 
+                    to become a Front/app developer at Changemaker 
                     Educations in Stockholm, and will finish in the 
                     spring of 2023. I am a talented, ambitious and
                     hardworking individual, with broad skills and 
