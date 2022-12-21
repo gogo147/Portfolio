@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             <div>
                 <p>My name is George Manaz and I am studying 
-                    to become a Front/app developer at Changemaker 
+                    to become a Fullstack developer at Changemaker 
                     Educations in Stockholm, and will finish in the 
                     spring of 2023. I am a talented, ambitious and
                     hardworking individual, with broad skills and 
