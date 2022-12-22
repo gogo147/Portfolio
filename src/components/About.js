@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import Gogo from '../assets/gogo.png';
 
 const About = () => {
   return (
@@ -12,10 +14,8 @@ const About = () => {
                 </div>
                 
                 </div>
-            <div className='max-w-[1000px] w-[94%] grid sm:grid-cols-2 gap-8'>
-                <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. Nice to meet you. Please take a look around.</p>
-                </div>
+            <div className='max-w-[1000px] w-[85%] grid sm:grid-cols-2 gap-8'>
+                <img className='max-w-[250px] rounded-full' src={Gogo} /> 
             <div>
                 <p>My name is George Manaz and I am studying 
                     to become a Fullstack developer at Changemaker 
